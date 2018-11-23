@@ -3,9 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.5.1",
+    "@material-ui/icons": "^3.0.1",
+    "axios": "^0.18.0",
+    "connected-react-router": "^5.0.1",
+    "dotenv": "^6.1.0",
+    "history": "^4.7.2",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "react-scripts": "2.1.1"
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "redux": "^4.0.1",
+    "redux-actions": "^2.6.4",
+    "redux-form": "^7.4.2",
+    "redux-saga": "^0.16.2",
+    "reselect": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +34,23 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "enzyme": "^3.7.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "husky": "^1.1.4",
+    "jest": "^23.6.0",
+    "lint-staged": "^8.0.5",
+    "nyc": "^13.1.0",
+    "prettier": "^1.15.2",
+    "react-redux": "^5.1.1",
+    "recompose": "^0.30.0",
+    "redux-devtools": "^3.4.2",
+    "redux-logger": "^3.0.6"
+  }
 }

@@ -1,0 +1,16 @@
+.auth-form {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.auth-input {
+  width: 300px;
+  font-size: 24px;
+  display: block;
+  margin: 15px 0;
+  padding: 10px;
+}
+
+.auth-button {
+  width: 300px;
+}
